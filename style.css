@@ -1,0 +1,39 @@
+h1 {
+
+    text-align: left;
+    width: 120px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.navbar ul {
+
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    width: 300px;
+    height: 300xp;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: right;
+    row-gap: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    row-gap: 20px;
+}
